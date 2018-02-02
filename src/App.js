@@ -9,11 +9,13 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <Box />
+          {<h1 className="App-title">React Echo</h1>}
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <main>
+          <Box />
+          <div className="arrow">==></div>
+          <Box />
+        </main>
       </div>
     );
   }

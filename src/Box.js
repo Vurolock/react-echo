@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 
 const Box = (props) => {
-    return (<h1>Hello World</h1>);
+    return (<div className="text-box">
+                <input className="text-input "type="text" />
+            </div>);
 }
 
 export default Box;
